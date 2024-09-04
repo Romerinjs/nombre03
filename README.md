@@ -46,7 +46,7 @@ Técnicas avanzadas de backend para manejar seguridad, autenticación, y más. �
 ¡Tus contribuciones son bienvenidas! Si tienes alguna idea o mejora, no dudes en abrir un PR. La fuerza del backend estará contigo. 💫
 
 🎉 Créditos
-Creado con ❤️ por [Tu Nombre Aquí], y alimentado por muchas horas de café ☕ y motivación. 💡
+Creado con ❤️ por Romerin.Javascript, y alimentado por muchas horas de café ☕ y motivación. 💡
 
 ¡Gracias por pasar por aquí! Si te gustó este repo, ¡no dudes en dejar una ⭐ para motivar a que siga creciendo! 🌟
 
