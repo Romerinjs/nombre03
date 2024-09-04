@@ -27,7 +27,7 @@ utils/: Funciones geniales que hacen el backend más sencillo y hermoso. 🛠
 💻 Cómo ejecutar este proyecto
 
 Clona este repositorio:
-git clone https://github.com/tuusuario/backend-mastery.git
+git clone https://github.com/Romerinjs/servidor_directo.git
 
 Instala las dependencias:
 npm install
