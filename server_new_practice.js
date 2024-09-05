@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   else if(req.url === '/'){
     res.statusCode = 200;
     res.setHeader('Content-type', 'text/plain');
-    res.end('Usa las url /new-page, /inicio-nuevo, /Inicio-antiguo, /old-page, /contacto-nuevo, /contacto-viejo, /donpollo, /admin, /acceso, /user, /clima, /non-exist-user')
+    res.end('Usa las url \n /new-page,\n /inicio-nuevo,\n /Inicio-antiguo,\n /old-page,\n /contacto-nuevo,\n /contacto-viejo,\n /donpollo,\n /admin,\n /acceso,\n /user,\n /clima,\n /non-exist-user')
   }
   // Página de destino de la redirección
   else if (req.url === '/new-page') {
@@ -97,7 +97,7 @@ const server = http.createServer((req, res) => {
   else {
     res.statusCode = 404;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Viejo... ¿Que pagina andas buscando? -.-)?');
+    res.end('Viejo...¿Que pagina andas buscando? -.-)?');
   }
 });
 
