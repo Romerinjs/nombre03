@@ -6,6 +6,11 @@ const server = http.createServer((req, res) => {
     res.writeHead(301, { 'Location': '/new-page' });
     res.end();
   }
+  else if(req.url === '/'){
+    res.statusCode = 200;
+    res.setHeader('Content-type', 'text/plain');
+    res.end('Usa las url /new-page, /inicio-nuevo, /Inicio-antiguo, /old-page, /contacto-nuevo, /contacto-viejo, /donpollo, /admin, /acceso, /user, /clima, /non-exist-user')
+  }
   // Página de destino de la redirección
   else if (req.url === '/new-page') {
     res.statusCode = 200;
