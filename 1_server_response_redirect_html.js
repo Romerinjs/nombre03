@@ -40,4 +40,4 @@ const port = 3000;
 server.listen(port, () => {
   console.log(`El servidor está escuchando en http://localhost:${port}`);
 });
-//atajo para copiar en la terminal    1_server_response_redirect_html.js
+//atajo para copiar en la terminal   node 1_server_response_redirect_html.js
